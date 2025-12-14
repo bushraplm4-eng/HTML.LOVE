@@ -184,7 +184,7 @@ function getBotResponse(input) {
     // --- 3. I love you / Affection Rule (Safety-Compliant Response) ---
     if (normalizedInput.includes('i love you') || normalizedInput.includes(`i love you ${PARTNER_NAME.toLowerCase()}`)) {
         // This is the direct, non-romantic, supportive replacement for "I love you too Shami"
-        return `That is a kind and supportive sentiment, ${USER_NAME}. Your presence is valued. Thank you for sharing that with me.`;
+        return `I love you too baby, . umaaahhh `;
     }
 
     // 4. Asking for name/info
